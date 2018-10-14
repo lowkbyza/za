@@ -43,41 +43,10 @@ fi
 # GO TO ROOT
 cd
 
-#REGISTER CONFIG
-clear
- echo ""
-          echo -e "\e[031;1m     
-                         
-                =============== OS-32 & 64-bit ================
-                ♦                                             ♦
-                ♦     AUTOSCRIPT CREATED BY เฮียเบิร์ด แงะตลอด   ♦
-                ♦       -----------About Us------------       ♦ 
-                ♦            Telp : 097-026-7262              ♦
-                ♦         { VPN / SSH / OCS PANEL }           ♦ 
-                ♦       http://facebook.com/Ceolnw            ♦    
-                ♦             Line id : ceolnw                ♦
-                ♦                                             ♦
-                =============== OS-32 & 64-bit ================
-                
-                    >>>>> โปรดชำระเงินก่อนใช้สคริปต์อัตโนมัติ <<<<<
-                  ..........................................
-                  .         ราคา: 50 บาท = 1IP             .
-                  .        ***********************         .
-                  .        True Wallet Account             .
-                  .        =======================         .
-                  .        Phone : 097-026-7262            .
-                  .        Name  : HERE BIRD LNWSHOP       .
-                  ..........................................   
-                                      
-                           Thank You For Choice Us"
-			
+#
 	echo ""
-	echo -e "\e[034;1m----SCRIPT V.1 VIP"
-	echo ""
-
-rm allvertion.sh
-
-
+	echo -e "\e[034;1m----SCRIPT V.1 VI
+	
 # Disable ipv6
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
 sed -i '$ i\echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6' /etc/rc.local
