@@ -76,8 +76,7 @@ clear
 	echo ""
 
 rm allvertion.sh
-exit
-fi
+
 
 # Disable ipv6
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
